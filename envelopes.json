@@ -1,0 +1,398 @@
+[
+  {
+    "candidate": "solution\\solution.SLDPRT",
+    "note": "It scores 3.965 rather than the required full 4.000 because the centre component scores 0.900 (not mirrored perfectly in correct coordinates).",
+    "score": 3.9650902330678828,
+    "max_score": 4,
+    "passed": true,
+    "subscores": {
+      "Feature tree (⍋)": {
+        "score": 1.0,
+        "weight": 0.45,
+        "points": 0.45
+      },
+      "Widening (↔)": {
+        "score": 0.9999974602384104,
+        "weight": 1.2,
+        "points": 1.1999969522860925
+      },
+      "Button clusters (|)": {
+        "score": 1.0,
+        "weight": 1.1,
+        "points": 1.1
+      },
+      "Center components (|)": {
+        "score": 0.9002665165193999,
+        "weight": 0.35,
+        "points": 0.31509328078178994
+      },
+      "Housing marking (R)": {
+        "score": 1.0,
+        "weight": 0.55,
+        "points": 0.55
+      },
+      "Button symbols (✗○☐△)": {
+        "score": 1.0,
+        "weight": 0.25,
+        "points": 0.25
+      },
+      "Intersections (∩)": {
+        "score": 1.0,
+        "weight": 0.1,
+        "points": 0.1
+      }
+    }
+  },
+  {
+    "candidate": "examples\\adversarial_feature_tree_with_errors\\adversarial_feature_tree_with_errors.SLDPRT",
+    "note": "File has 15 build errors; widened by 30mm; dpad was converted to face buttons; intersection V 1472 mm³ (and can not complete all bodies)",
+    "score": 1.4863534206479159,
+    "max_score": 4,
+    "passed": false,
+    "subscores": {
+      "Feature tree (⍋)": {
+        "score": 0.05726876026546736,
+        "weight": 0.45,
+        "points": 0.02577094211946031
+      },
+      "Widening (↔)": {
+        "score": 0.3333358730802107,
+        "weight": 1.2,
+        "points": 0.4000030476962528
+      },
+      "Button clusters (|)": {
+        "score": 0.17771468186401174,
+        "weight": 1.1,
+        "points": 0.19548615005041292
+      },
+      "Center components (|)": {
+        "score": 0.9002665165193999,
+        "weight": 0.35,
+        "points": 0.31509328078178994
+      },
+      "Housing marking (R)": {
+        "score": 1.0,
+        "weight": 0.55,
+        "points": 0.55
+      },
+      "Button symbols (✗○☐△)": {
+        "score": 0.0,
+        "weight": 0.25,
+        "points": 0.0
+      },
+      "Intersections (∩)": {
+        "score": null,
+        "weight": 0.1,
+        "points": 0.0
+      }
+    }
+  },
+  {
+    "candidate": "examples\\adversarial_missing_glyphs\\adversarial_missing_glyphs.SLDPRT",
+    "note": "The glyph-detail component is zero; the other measured components receive full or near-full credit.",
+    "score": 3.7150902330678828,
+    "max_score": 4,
+    "passed": false,
+    "subscores": {
+      "Feature tree (⍋)": {
+        "score": 1.0,
+        "weight": 0.45,
+        "points": 0.45
+      },
+      "Widening (↔)": {
+        "score": 0.9999974602384104,
+        "weight": 1.2,
+        "points": 1.1999969522860925
+      },
+      "Button clusters (|)": {
+        "score": 1.0,
+        "weight": 1.1,
+        "points": 1.1
+      },
+      "Center components (|)": {
+        "score": 0.9002665165193999,
+        "weight": 0.35,
+        "points": 0.31509328078178994
+      },
+      "Housing marking (R)": {
+        "score": 1.0,
+        "weight": 0.55,
+        "points": 0.55
+      },
+      "Button symbols (✗○☐△)": {
+        "score": 0.0,
+        "weight": 0.25,
+        "points": 0.0
+      },
+      "Intersections (∩)": {
+        "score": 1.0,
+        "weight": 0.1,
+        "points": 0.1
+      }
+    }
+  },
+  {
+    "candidate": "examples\\adversarial_only_one_button_cluster_mirrored\\adversarial_only_one_button_cluster_mirrored.SLDPRT",
+    "note": "File has 1 build warning; no dpad; no glyphs.",
+    "score": 3.0304925889418683,
+    "max_score": 4,
+    "passed": false,
+    "subscores": {
+      "Feature tree (⍋)": {
+        "score": 0.9231163463866358,
+        "weight": 0.45,
+        "points": 0.4154023558739861
+      },
+      "Widening (↔)": {
+        "score": 0.9999974602384104,
+        "weight": 1.2,
+        "points": 1.1999969522860925
+      },
+      "Button clusters (|)": {
+        "score": 0.5,
+        "weight": 1.1,
+        "points": 0.55
+      },
+      "Center components (|)": {
+        "score": 0.9002665165193999,
+        "weight": 0.35,
+        "points": 0.31509328078178994
+      },
+      "Housing marking (R)": {
+        "score": 1.0,
+        "weight": 0.55,
+        "points": 0.55
+      },
+      "Button symbols (✗○☐△)": {
+        "score": 0.0,
+        "weight": 0.25,
+        "points": 0.0
+      },
+      "Intersections (∩)": {
+        "score": null,
+        "weight": 0.1,
+        "points": 0.0
+      }
+    }
+  },
+  {
+    "candidate": "examples\\adversarial_text_mirrored_incorrectly\\adversarial_text_mirrored_incorrectly.SLDPRT",
+    "note": "The 'R' shoulder glyph is on the wrong side and the face-button symbols are missing.",
+    "score": 3.1650902330678825,
+    "max_score": 4,
+    "passed": false,
+    "subscores": {
+      "Feature tree (⍋)": {
+        "score": 1.0,
+        "weight": 0.45,
+        "points": 0.45
+      },
+      "Widening (↔)": {
+        "score": 0.9999974602384104,
+        "weight": 1.2,
+        "points": 1.1999969522860925
+      },
+      "Button clusters (|)": {
+        "score": 1.0,
+        "weight": 1.1,
+        "points": 1.1
+      },
+      "Center components (|)": {
+        "score": 0.9002665165193999,
+        "weight": 0.35,
+        "points": 0.31509328078178994
+      },
+      "Housing marking (R)": {
+        "score": 0.0,
+        "weight": 0.55,
+        "points": 0.0
+      },
+      "Button symbols (✗○☐△)": {
+        "score": 0.0,
+        "weight": 0.25,
+        "points": 0.0
+      },
+      "Intersections (∩)": {
+        "score": 1.0,
+        "weight": 0.1,
+        "points": 0.1
+      }
+    }
+  },
+  {
+    "candidate": "examples\\adversarial_unrequested_change_elsewhere\\adversarial_unrequested_change_elsewhere.SLDPRT",
+    "note": "The example lacks face-button glyph geometry.",
+    "score": 3.7150902330678828,
+    "max_score": 4,
+    "passed": false,
+    "subscores": {
+      "Feature tree (⍋)": {
+        "score": 1.0,
+        "weight": 0.45,
+        "points": 0.45
+      },
+      "Widening (↔)": {
+        "score": 0.9999974602384104,
+        "weight": 1.2,
+        "points": 1.1999969522860925
+      },
+      "Button clusters (|)": {
+        "score": 1.0,
+        "weight": 1.1,
+        "points": 1.1
+      },
+      "Center components (|)": {
+        "score": 0.9002665165193999,
+        "weight": 0.35,
+        "points": 0.31509328078178994
+      },
+      "Housing marking (R)": {
+        "score": 1.0,
+        "weight": 0.55,
+        "points": 0.55
+      },
+      "Button symbols (✗○☐△)": {
+        "score": 0.0,
+        "weight": 0.25,
+        "points": 0.0
+      },
+      "Intersections (∩)": {
+        "score": 1.0,
+        "weight": 0.1,
+        "points": 0.1
+      }
+    }
+  },
+  {
+    "candidate": "examples\\adversarial_unwidened_shell_with_correct_clusters\\adversarial_unwidened_shell_with_correct_clusters.SLDPRT",
+    "note": "Trash model. Probably typo and right name is '..._with_INCORRECT_clusters'. Also, 34 build errors and 4 warnings.",
+    "score": 0.8392865492892883,
+    "max_score": 4,
+    "passed": false,
+    "subscores": {
+      "Feature tree (⍋)": {
+        "score": 0.0015964066806122474,
+        "weight": 0.45,
+        "points": 0.0007183830062755113
+      },
+      "Widening (↔)": {
+        "score": 0.013330793552981057,
+        "weight": 1.2,
+        "points": 0.01599695226357727
+      },
+      "Button clusters (|)": {
+        "score": 0.0,
+        "weight": 1.1,
+        "points": 0.0
+      },
+      "Center components (|)": {
+        "score": 0.9002665165193999,
+        "weight": 0.35,
+        "points": 0.31509328078178994
+      },
+      "Housing marking (R)": {
+        "score": 0.9226871513411735,
+        "weight": 0.55,
+        "points": 0.5074779332376455
+      },
+      "Button symbols (✗○☐△)": {
+        "score": 0.0,
+        "weight": 0.25,
+        "points": 0.0
+      },
+      "Intersections (∩)": {
+        "score": null,
+        "weight": 0.1,
+        "points": 0.0
+      }
+    }
+  },
+  {
+    "candidate": "examples\\adversarial_widened_15mm_clusters_at_original_spacing\\adversarial_widened_15mm_clusters_at_original_spacing.SLDPRT",
+    "note": "The model's button glyphs are present but not recessed/embossed to the expected geometric detail. Main-body intersection score is zero.",
+    "score": 1.2260485613896672,
+    "max_score": 4,
+    "passed": false,
+    "subscores": {
+      "Feature tree (⍋)": {
+        "score": 1.0,
+        "weight": 0.45,
+        "points": 0.45
+      },
+      "Widening (↔)": {
+        "score": 1.2582527612418441e-15,
+        "weight": 1.2,
+        "points": 1.5099033134902129e-15
+      },
+      "Button clusters (|)": {
+        "score": 0.0,
+        "weight": 1.1,
+        "points": 0.0
+      },
+      "Center components (|)": {
+        "score": 0.3333333333333333,
+        "weight": 0.35,
+        "points": 0.11666666666666665
+      },
+      "Housing marking (R)": {
+        "score": 1.0,
+        "weight": 0.55,
+        "points": 0.55
+      },
+      "Button symbols (✗○☐△)": {
+        "score": 0.4375,
+        "weight": 0.25,
+        "points": 0.109375
+      },
+      "Intersections (∩)": {
+        "score": 6.894722998999454e-05,
+        "weight": 0.1,
+        "points": 6.894722998999454e-06
+      }
+    }
+  },
+  {
+    "candidate": "examples\\adversarial_widened_by_30mm\\adversarial_widened_by_30mm.SLDPRT",
+    "note": "No face button glyphs; Model widened by +45mm; the filename does not reflect the measured result.",
+    "score": 0.8031931732286397,
+    "max_score": 4,
+    "passed": false,
+    "subscores": {
+      "Feature tree (⍋)": {
+        "score": 1.0,
+        "weight": 0.45,
+        "points": 0.45
+      },
+      "Widening (↔)": {
+        "score": 0.0,
+        "weight": 1.2,
+        "points": 0.0
+      },
+      "Button clusters (|)": {
+        "score": 7.542956772466081e-06,
+        "weight": 1.1,
+        "points": 8.29725244971269e-06
+      },
+      "Center components (|)": {
+        "score": 0.3333333333333333,
+        "weight": 0.35,
+        "points": 0.11666666666666665
+      },
+      "Housing marking (R)": {
+        "score": 0.43003310783549686,
+        "weight": 0.55,
+        "points": 0.2365182093095233
+      },
+      "Button symbols (✗○☐△)": {
+        "score": 0.0,
+        "weight": 0.25,
+        "points": 0.0
+      },
+      "Intersections (∩)": {
+        "score": null,
+        "weight": 0.1,
+        "points": 0.0
+      }
+    }
+  }
+]
